@@ -6,22 +6,18 @@ A basic react native app based off the starter code from (https://github.com/inv
 ---
 ### Getting Started
 
-> If you're only developing for one platform you can ignore the steps below that are tagged with the platform you don't require.
-
 #### 1) Clone & Install Dependencies
 
 - 1.1) `git clone https://github.com/corbinbalzan/ReactNativeFirebaseStarter.git`
 - 1.2) `cd reactnativefirebasestarter` - cd into your newly created project directory.
-- 1.3) Install NPM packages with your package manager of choice - i.e run `yarn` or `npm install`
-- 1.4) `npm install --save `
-- 1.5) `react-native link`
+- 1.3) `npm install --save `
+- 1.4) `react-native link`
 
 #### 2) Rename Project
 
 **You will need to be running Node version 7.6 or greater for the rename functionality to work**
 
 - 2.1) `npm run rename` - you'll be prompted to enter a project name and company name
-- 2.2) Note down the package name value - you'll need this when setting up your Firebase project
 
 #### 3) **[iOS]** Install Pods
 
@@ -37,13 +33,13 @@ A basic react native app based off the starter code from (https://github.com/inv
 
 
 
-On xcode projects add additional command below to generate the main jsbundle
+On xcode projects add additional command below to generate the main jsbundle if you'te getting a bundle error
 
 ```
 npm run build:ios
 ```
 
-After this open up the .xcworkspace not the .xcodeproj
+### After all the setup make sure to open up the .xcworkspace not the .xcodeproj in Xcode
 
 
 # Error Notes: 
@@ -59,5 +55,6 @@ npm cache clean --force
 npm install
 ```
 
+questions?  contatct: corbinbalzan@gmail.com
 
 
