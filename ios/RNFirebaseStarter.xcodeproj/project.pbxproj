@@ -18,9 +18,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNFirebaseStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNFirebaseStarterTests.m */; };
+		56CBC1B023DF0C4A00EDD036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56CBC1AF23DF0C4A00EDD036 /* GoogleService-Info.plist */; };
 		66F583A38C047519D1E18159 /* libPods-RNFirebaseStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 599A1087F9C545123EFD61BE /* libPods-RNFirebaseStarter.a */; };
 		ADDA258B0C3DE0261C60A364 /* libPods-RNFirebaseStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B23455DE3C4D5673E7318E /* libPods-RNFirebaseStarter-tvOSTests.a */; };
-		B2F9AE502346CD9F009F5E3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2F9AE4F2346CD9F009F5E3B /* GoogleService-Info.plist */; };
 		CB23C3742761BB2944FDCE0B /* libPods-RNFirebaseStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3AC53CF282E97E63953C49 /* libPods-RNFirebaseStarterTests.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -62,12 +62,12 @@
 		2D02E4901E0B4A5D006451C7 /* RNFirebaseStarter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNFirebaseStarter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A114661868ACFA83CCA60B3 /* libPods-RNFirebaseStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebaseStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CBC1AF23DF0C4A00EDD036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		599A1087F9C545123EFD61BE /* libPods-RNFirebaseStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebaseStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C04F7E60E3774814827066E /* Pods-RNFirebaseStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebaseStarter-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebaseStarter-tvOS/Pods-RNFirebaseStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7A230A0DEF48DF21D545AA71 /* Pods-RNFirebaseStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebaseStarter-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebaseStarter-tvOS/Pods-RNFirebaseStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9C3AC53CF282E97E63953C49 /* libPods-RNFirebaseStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebaseStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC301B00DE1F70B71BE4D317 /* Pods-RNFirebaseStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebaseStarterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebaseStarterTests/Pods-RNFirebaseStarterTests.release.xcconfig"; sourceTree = "<group>"; };
-		B2F9AE4F2346CD9F009F5E3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CA346B7E0D05342E8E702E1C /* Pods-RNFirebaseStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebaseStarter-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebaseStarter-tvOSTests/Pods-RNFirebaseStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E36E327AAA5B4552B4028263 /* Pods-RNFirebaseStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFirebaseStarterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNFirebaseStarterTests/Pods-RNFirebaseStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -149,7 +149,7 @@
 		13B07FAE1A68108700A75B9A /* RNFirebaseStarter */ = {
 			isa = PBXGroup;
 			children = (
-				B2F9AE4F2346CD9F009F5E3B /* GoogleService-Info.plist */,
+				56CBC1AF23DF0C4A00EDD036 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -311,7 +311,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = A885MQ5VBZ;
+						DevelopmentTeam = 8HL6KCNPJS;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -360,7 +360,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				B2F9AE502346CD9F009F5E3B /* GoogleService-Info.plist in Resources */,
+				56CBC1B023DF0C4A00EDD036 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,7 +662,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = A885MQ5VBZ;
+				DEVELOPMENT_TEAM = 8HL6KCNPJS;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -686,7 +686,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A885MQ5VBZ;
+				DEVELOPMENT_TEAM = 8HL6KCNPJS;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",

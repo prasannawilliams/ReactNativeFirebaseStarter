@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "93971575667",
+    "firebase_url": "https://homefood-1aa40.firebaseio.com",
+    "project_id": "homefood-1aa40",
+    "storage_bucket": "homefood-1aa40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93971575667:android:bf04faaf5072c0d21f8b06",
+        "android_client_info": {
+          "package_name": "com.invertase.rnfirebasestarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93971575667-b1r83nfns397h354htdgk198k0hrv7rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.invertase.rnfirebasestarter",
+            "certificate_hash": "b08fa234b6ae114c3dbb278ae13f22798d11dbbe"
+          }
+        },
+        {
+          "client_id": "93971575667-dgp9ah85i4a1go5ldshnhf9ej515t5lu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.invertase.rnfirebasestarter",
+            "certificate_hash": "cd31871511a11b1c07dfb627a608247e5338effe"
+          }
+        },
+        {
+          "client_id": "93971575667-9pkunlv6rflsa4avc7bf722oglprcvoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf27GYsP9dfWmNYgHOf1nH3pNlMTJpQHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93971575667-9pkunlv6rflsa4avc7bf722oglprcvoa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93971575667-7sa8ui718l1mjbr6jb66ppskfjaodd0c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.invertase.rnfirebasestarter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
